@@ -1,3 +1,5 @@
+const NodemonPlugin = require('nodemon-webpack-plugin');
+
 module.exports = {
   watch: true,
   output: {
@@ -18,5 +20,8 @@ module.exports = {
       }
     ]
   },
+  plugins: [
+    new NodemonPlugin({nodeArgs: ['--inspect']})
+  ],
   target: 'node'
 }

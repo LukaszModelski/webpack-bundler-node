@@ -10,7 +10,7 @@
   },
   "author": "Lukasz Modelski",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "@babel/cli": "^7.14.5",
     "@babel/core": "^7.14.6",
     "@babel/plugin-transform-runtime": "^7.14.5",
